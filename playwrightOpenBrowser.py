@@ -7,6 +7,7 @@ def run(playwright: Playwright):
     page.goto("https://google.com")
     print(page.title())
     print(page.url)
+    print("Chandan")
     browser.close()
 
 with sync_playwright() as playwright:
